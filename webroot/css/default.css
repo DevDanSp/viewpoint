@@ -1,0 +1,56 @@
+.sidebar {
+    width: 300px;
+    height: 100%;
+    background: #eee;
+    display: inline-block;
+    position: absolute;
+}
+.sidebar #entries {
+    margin-top: 200px;
+}
+.sidebar #entries .item {
+    padding: 2px 2px 2px 10px;
+    margin: 5px 5px 5px 50px;
+    background: #00aeff;
+    border: 1px solid #e6e6e6;
+    border-radius: 4px;
+    line-height: 25px;
+    height: 25px;
+    vertical-align: middle;
+    text-align: left;
+}
+.topbar {
+    height: 30px;
+    width: 100%;
+    background: #eee;
+    display: inline-block;
+    position: absolute;
+}
+.sidebar #top_button {
+    height: 30px;
+    width: 30px;
+    display: inline-block;
+    float: right;
+    margin-top: 5px;
+    margin-right: 5px;
+    line-height: 30px;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 4px;
+}
+.sidebar #top_button:hover {
+    background: #aaaaaa;
+}
+.hidden {
+    display: none;
+}
+.mini {
+    padding: 2px !important;
+    margin: 5px !important;
+    text-align: center !important;
+}
+.max {
+    padding: 2px 2px 2px 10px !important;
+    margin: 5px 5px 5px 50px !important;
+    text-align: left !important;
+}
