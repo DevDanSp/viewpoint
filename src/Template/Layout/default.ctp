@@ -20,7 +20,7 @@
                 <div>Eintrag 2</div>
             </div>
             <div class="item <?php if (true):?>active<?php endif; ?>">
-                <div>Eintrag 3</div>
+                <div>Eintrag Neu</div>
             </div>
         </div>
     </div>
